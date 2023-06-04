@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ToDo App</title>
+    <script
+      src="https://kit.fontawesome.com/88f947878d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="table">
+      <div>
+        <h1 class="head">My ToDo List App</h1>
+        <div class="total1">
+          <div class="total">
+            <button class="add b1" id="add-task">Add Task</button>
+
+            <button class="add b2" id="complete-ls">Task Completed</button>
+          </div>
+
+          <div class="head2 hidden" id="headid">
+            <input
+              id="inp"
+              class="input n"
+              placeholder="Add Task..."
+              type="text"
+            />
+            <!-- <div class="plus-btn" style="font-size: 32px" id="add-btn">+</div> -->
+            <i class="fa-solid fa-plus plus-btn" id="add-btn"></i>
+          </div>
+          <div class=""></div>
+        </div>
+      </div>
+
+      <div id="incompleteid" class="task-table">
+        <div class="uncomp">Incomplete Tasks</div>
+        <div id="tasklist" class="task-list"></div>
+      </div>
+      <div id="completeid" class="task-table hidden">
+        <div class="uncomp">Completed Tasks</div>
+        <div id="tasklist-comp" class="task-list"></div>
+      </div>
+    </div>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

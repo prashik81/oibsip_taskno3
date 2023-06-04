@@ -1,0 +1,196 @@
+body {
+  height: 97.5vh;
+  background-color: #163486;
+  background-image: linear-gradient(326deg, #134d8f 0%, #a1bae9 74%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.total1 {
+  position: relative;
+}
+.total {
+  height: 50px;
+  background-color: rgb(253, 115, 115);
+  /* border: 1px solid black; */
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.head {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.table {
+  flex-direction: column;
+  /* position: relative; */
+  display: flex;
+  /* align-items: center; */
+  background-color: white;
+  justify-content: center;
+  /* height: 57px; */
+  padding: 60px;
+  border-radius: 10px;
+  width: 500px;
+  /* height: 600px; */
+  /* margin-top: 30px; */
+}
+.head {
+  margin-top: 20px;
+  /* position: absolute; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: aqua; */
+  /* border-radius: 30px; */
+  /* width: 400px; */
+}
+
+.head2 {
+  top: 60px;
+  margin-top: 20px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.b1 {
+  border-radius: 15px 0 0 15px;
+}
+.b2 {
+  border-radius: 0 15px 15px 0;
+}
+
+.add {
+  height: 50px;
+  /* margin: 0 10px; */
+  font-size: 25px;
+  text-align: center;
+  display: flex;
+  padding: 10px 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  align-items: center;
+  justify-content: center;
+  /* height: 41px; */
+  /* position: absolute; */
+  /* margin-top: 0.3px; */
+  /* right: 61px; */
+  background-color: rgb(253, 115, 115);
+  /* width: 65px; */
+  /* padding: 10px 13px; */
+  width: 100%;
+  /* height: 25px; */
+  /* border: none; */
+  color: aliceblue;
+  /* margin-left: -92px; */
+  /* border-radius: 100px; */
+}
+.plus-btn {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 39px;
+  width: 50px;
+  border: 1.5px solid black;
+  padding: 10px 13.5px;
+  border-radius: 0px 10px 0px 0px;
+  background-color: rgb(253, 115, 115);
+}
+
+.add button {
+  height: 50px;
+  font-size: 25px;
+  color: rgb(239, 228, 228);
+  background-color: rgb(253, 115, 115);
+  border: none;
+}
+
+.input {
+  /* top: 70px; */
+  /* padding: ; */
+  /* margin-top: 20px; */
+  /* width: 100%; */
+  /* position: absolute; */
+  border-radius: 10px 0px 0px 0px;
+  border: 1px solid black;
+  height: 23px;
+  /* border: none; */
+  width: 385px;
+  padding: 18.1px;
+  outline: none;
+  font-size: 20px;
+}
+
+.task-list {
+  /* margin-top: 10px; */
+  height: 200px;
+  /* border-radius: 200px; */
+  /* width: 4bo00px; */
+  overflow-y: scroll;
+  /* overflow: hidden; */
+  /* scroll-margin: 60px; */
+}
+.task-list {
+  -ms-overflow-style: none; /* Internet Explorer 10+ */
+  scrollbar-width: none; /* Firefox */
+}
+.task-list::-webkit-scrollbar {
+  display: none; /* Safari and Chrome */
+}
+.task {
+  /* margin-top: 10px; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0px 15px;
+  /* width: 70%; */
+  /* margin-left: 130px; */
+  /* margin: auto; */
+  /* justify-content: space-around; */
+  padding-left: 90px;
+  /* padding: 5px 70px; */
+  width: 100%;
+  height: 50px;
+  /* background-color: aqua; */
+  /* border-radius: 50px; */
+  /* border: 1px solid black; */
+}
+.task:hover {
+  background-color: #edeff3;
+}
+.task p {
+  text-align: left;
+  width: 180px;
+  /* padding-left: 60px; */
+}
+.circle {
+  width: 15px;
+  height: 16px;
+  /* background-color: #861657; */
+  border-radius: 10px;
+}
+
+.hidden {
+  display: none;
+}
+.task-table {
+  /* width: 400px; */
+  margin-top: 30px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.uncomp {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+  border-radius: 10px 10px 0px 0px;
+  /* border-radius: 32px 32px 0 0; */
+  text-align: center;
+  padding: 15px;
+  font-size: 25px;
+  background-color: rgb(253, 115, 115);
+}
